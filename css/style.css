@@ -1,0 +1,336 @@
+/* navbar-area */
+.navbar-area{
+    background-color: #87509C;
+}
+#navbarNavDropdown ul li a{
+    color: white;
+    text-transform: uppercase;
+    font-weight: 300;
+    padding: 0px 20px;
+    font-family: 'Titillium Web', sans-serif;
+}
+#navbarNavDropdown ul li a:hover{
+    color: white;
+    text-transform: uppercase;
+    font-weight: 300;
+    padding: 0px 20px;
+    background-color: #643A79;
+    border-radius: 5px;
+}
+
+/* header-text */
+.header-text{
+    background-color: #87509C;
+    color: white;
+}
+.header-text h2{
+    font-size: 50px;
+    font-weight: 700;
+    padding-top: 120px;
+    padding-bottom: 50px;
+}
+.header-text button{
+    background-color: #EB7D4B;
+    margin-bottom: 120px;
+    padding: 10px 40px;
+    border-bottom: 2px solid #C86A40;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-radius: 3px;
+    color: white;
+}
+
+/* border-bg-area */
+.border-bg-area{
+    text-align: center;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 150px;
+    height: 5px;
+    top: 0;
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom:10px;
+}
+.service-bg-color{
+    background-color: #14A58C;
+}
+
+/* service-area */
+.service-area{
+    background-color: #17C2A4;
+    color: white;
+}
+.service-area h2{
+    text-transform: uppercase;
+    padding-top: 50px;
+    font-weight: 600;
+}
+.service-area h4{
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.service-area p{
+    padding-bottom: 80px;
+    margin-bottom: 0px;
+}
+.service-p{
+    width: 90%;
+    text-align: center;
+}
+.service-area img{
+    padding-bottom: 25px;
+    width: auto;
+    height: 160px;
+}
+
+/* meet-team-area */
+.meet-team-area{
+    background-color: #E7F1F8;
+    color: black;
+}
+.meet-team-area h2{
+    text-transform: uppercase;
+    padding-top: 50px;
+    font-weight: 600;
+}
+.meet-team-area h4{
+    text-transform: uppercase;
+    font-weight: 600;
+    height:8%;
+}
+.service-p{
+    width: 90%;
+    text-align: center;
+}
+.meet-team-area img{
+    padding-bottom: 25px;
+    width: auto;
+    height: 160px;
+}
+.meet-team-bg-color{
+    background-color:#C8D9E5;
+}
+.team-post{
+    color: #30B8E5;
+    height: 5%;
+}
+.meet-team-icon a{
+    font-size: 15px;
+    background-color: #BDD1DF;
+    padding: 10px;
+    border-radius: 50%;
+    margin-left: 5px;
+    color: white;
+    /* display: inline-flex;
+    direction: none; */
+}
+.meet-team-icon{
+    padding-bottom:80px;
+}
+
+/* skill-area */
+.skill-area h2{
+    text-transform: uppercase;
+    padding-top: 50px;
+    font-weight: 600;
+}
+.skill-area h4{
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.skill-area p{
+    padding-bottom: 80px;
+    margin-bottom: 0px;
+}
+.service-p{
+    width: 90%;
+    text-align: center;
+}
+.skill-area img{
+    padding-bottom: 25px;
+    width: auto;
+    height: 160px;
+}
+.skill-bg-color{
+    background-color: #DFE8ED;
+}
+.skill-area h4{
+    padding: 20px;
+    padding-bottom: 80px;
+}
+
+
+/* progress bar */
+.progress-bar {
+    position: relative;
+    height: 100px;
+    width: 100px;
+  } 
+  .progress-bar div {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+  }
+  .progress-bar div span {
+    position: absolute;
+    font-family: Arial;
+    font-size: 25px;
+    line-height: 75px;
+    height: 75px;
+    width: 75px;
+    left: 12.5px;
+    top: 12.5px;
+    text-align: center;
+    border-radius: 50%;
+    background-color: white;
+  }
+  
+  .progress-bar .background { background-color: #b3cef6; }
+  
+  .progress-bar .rotate {
+    clip: rect(0 50px 100px 0);
+    background-color: #4b86db;
+  }
+  
+  .progress-bar .left {
+    clip: rect(0 50px 100px 0);
+    opacity: 1;
+    background-color: #b3cef6;
+  }
+  
+  .progress-bar .right {
+    clip: rect(0 50px 100px 0);
+    transform: rotate(180deg);
+    opacity: 0;
+    background-color: #4b86db;
+  }
+  
+  @keyframes 
+  toggle {  0% {
+   opacity: 0;
+  }
+   100% {
+   opacity: 1;
+  }
+  }
+
+
+/* our-portfolio-area */
+.our-portfolio-area{
+    background-color: #FFDD99;
+    color: black;
+    padding-bottom: 80px;
+}
+.our-portfolio-area h2{
+    text-transform: uppercase;
+    padding-top: 50px;
+    font-weight: 600;
+}
+.our-portfolio-bg-color{
+    background-color: #E5C37F;
+}
+.portfolio-btn-area button{
+    height: 40px;
+    width: 90px;
+    color: #393939;
+    background-color: #EBC985;
+    border: none;
+    font-size: 20px;
+    margin-left: 10px;
+    border-radius: 5px;
+}
+.portfolio-btn-area button:hover{
+    background-color:white;
+}
+.demo-website-are{
+    width:100%;
+    height:auto;
+    padding: 50px 0;
+}
+.demo-website-are p{
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+.load-more-projects{
+    padding: 10px 40px;
+    border: none;
+    background-color: #17C2A4;
+    color: white;
+    border-bottom: 2px solid #14A58C;
+}
+
+/* about-us-area */
+.about-us-area{
+    background-color: #D74680;
+    color: white;
+    padding-bottom: 120px;
+}
+.about-us-area h2{
+    text-transform: uppercase;
+    padding-top: 50px;
+    font-weight: 600;
+}
+.about-us-bg-color{
+    background-color: #B73C6D;
+}
+.about-us-text{
+    float: left;
+    text-align: justify;
+}
+.about-us-text h3{
+    padding-bottom: 10px;
+    font-weight: 200;
+}
+.about-us-text h4{
+    font-weight: 700;
+}
+.about-us-text h5{
+    color: #FAC996
+}
+
+/* form-area */
+.form-area{
+    background-color: #3C5499;
+    color: white;
+    padding-bottom: 80px;
+}
+.form-bg-color{
+    background-color: #273A71;
+}
+.form-control{
+    background-color: #273A71;
+    color: white;
+    border: none;
+}
+.form-control::placeholder{
+    color: white;
+}
+.send-message{
+    border: none;
+    padding: 15px 60px;
+    border-radius: 5px;
+    border-bottom: 2px solid #299EC5;
+    background-color: #30BAE7;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+/* footer*/
+.footer-area{
+    background-color: #344B8E;
+    padding: 50px 0;
+}
+.footer-area h3{
+    display: inline;
+    float: left;
+    text-decoration: none;
+    color: white;
+}
+.footer-area h3:hover{
+    color: #30BAE7;
+}
